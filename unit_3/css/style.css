@@ -1,0 +1,9 @@
+h1, p {
+	color: #ffffff;
+	text-align: center;
+}
+
+body {	
+	background-image: url("http://i.imgur.com/KUsDobl.jpg")
+	background-position: center;
+}
