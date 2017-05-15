@@ -1,9 +1,8 @@
-h1, p {
-	color: #ffffff;
+body {
 	text-align: center;
-}
-
-body {	
-	background-image: url("http://i.imgur.com/KUsDobl.jpg")
-	background-position: center;
+	background: url('../images/crosswalk_edit.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: #ffffff;
+	text-align: center
 }
