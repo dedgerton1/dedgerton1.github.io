@@ -1,6 +1,8 @@
 body {
 	text-align: center;
-	background: url('../images/crosswalk_edit.png');
+	font-family: Rockwell;
+	font-size: 22px;
+	background: url('../images/statue.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
 	color: #ffffff;
