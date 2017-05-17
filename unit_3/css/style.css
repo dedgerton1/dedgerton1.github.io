@@ -13,6 +13,16 @@ body {
 	font-weight: 300;
 }
 
+header {
+	background-color: #0039A6;
+	padding: 20px;
+}
+
+nav a {
+	color: #B6CBF5;
+	margin-right: 30px;
+}
+
 a {
 	color: #cc0000;
 	text-decoration-line: none;
