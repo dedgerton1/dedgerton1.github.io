@@ -1,82 +1,65 @@
 * {
 	margin: 0;
 	padding: 0;
+	box-sizing:border-box;
 }
-
 body {
 	background-size: 100%;
 	background-repeat: no-repeat;
 	text-align: center;
-	font-family: Rockwell;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size:22px;
 	color: #666;
 	font-weight: 300;
 }
-
 header {
-	background-color: #FFED74;
-	border: 1px black solid;
-	padding: 20px;
+	background:#333;
 }
-
-.navlinks {
+section {
+	padding:5em 0;
+}
+nav a {
 	color: #B6CBF5;
 	margin: 20px;
 	border-bottom: none;
-
 }
-
-#StateYourPath {
-	position: absolute; 
-	top: 0; 
-	left: 0;
-	margin-left: 10px;
+h1, h2, h3 {
+	font-family: Rockwell, serif;
 }
-
-a:hover {
-	color: #fff;
-	}
-
 p {
-	font-family: 'Source Sans Pro', sans-serif;
-	font-size: 16px;
-	width: 30em;
-	margin: 1em auto;
+	margin: 1em 0;
 }
-
 a {
 	color: #cc0000;
-	text-decoration-line: none;
+	text-decoration: none;
 	border-bottom: 1px solid #cc0000;
-
 }
-
-footer {
-	background-color: #FF957E;
-	border: 1px black solid;
-	padding: 20px;
-	text-align: center;
+a:hover {
+	color: #fff;
 }
-
-nav {
-	background-color: #E8C66A;
-	border: 1px black solid;
-	padding: 20px;
+#lander {
+    background: url(../images/statue.jpg);
+    background-position: center left;
+    background-repeat:no-repeat;
+    /* background-size: cover; */
+    padding: 10em 0 0;
+    height: 100vh;
+    text-align: left;
+    color: #fff;
 }
-
-article {
-	background-color: #E89C6C;
-	border: 1px black solid;
-	padding: 20px;
+#lander div {
+	width:40em;
 }
-
-div, section {
-	background-color: #FFE2B8;
-	border: 1px black solid;
-	padding: 20px;
+#StateYourPath {
+	margin-left: 10px;
 }
-
-
-
-
-
+.cta {
+	display:inline-block;
+	padding:1em;
+	background: #cc0000;
+	color:#fff;
+}
+.headerBanner {
+	width:20em;
+}
 
