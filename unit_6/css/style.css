@@ -3,6 +3,7 @@
 	padding: 0;
 	box-sizing:border-box;
 }
+
 body {
 	background-size: 100%;
 	background-repeat: no-repeat;
@@ -12,31 +13,39 @@ body {
 	color: #666;
 	font-weight: 300;
 }
+
 header {
 	background:#333;
 }
+
 section {
 	padding:5em 0;
 }
+
 nav a {
 	color: #B6CBF5;
 	margin: 20px;
 	border-bottom: none;
 }
+
 h1, h2, h3 {
 	font-family: Rockwell, serif;
 }
+
 p {
 	margin: 1em 0;
 }
+
 a {
 	color: #cc0000;
 	text-decoration: none;
 	border-bottom: 1px solid #cc0000;
 }
+
 a:hover {
 	color: #fff;
 }
+
 #lander {
     background: url(../images/statue.jpg);
     background-position: center left;
@@ -47,12 +56,15 @@ a:hover {
     text-align: left;
     color: #fff;
 }
+
 #lander div {
 	width:40em;
 }
+
 #StateYourPath {
 	margin-left: 10px;
 }
+
 .cta {
 	display:inline-block;
 	padding:1em;
